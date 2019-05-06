@@ -1,2 +1,2 @@
-# company
-https://pawelpisarekzbir.github.io/company/
+# company-de
+https://pawelpisarekzbir.github.io/company-de/
