@@ -87,10 +87,22 @@ Responsive media queries
   color: #fffde0;
   background-color: transparent;
 }
+.languages{
+  position: absolute;
+}
+.languages > li{
+  position: relative;
+  padding: 10px 0;
+}
 
+.languages > li:before{
+    content: '';
+    padding: 10px;
+}
 @media (max-width: 768px) {
 	.navbar-collapse {
 		background: rgba(50, 60, 70, 0.9);
+      min-height: 500px;
 	}
 }
 
@@ -293,6 +305,11 @@ footer {
   color: #fff;
   font-weight: 600;
   padding: 15px 0px;
+}
+.contact-info-data{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
 }
 
 .footer__navigation li a {
